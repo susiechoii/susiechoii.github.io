@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#131514">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; base-uri 'self'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="Susie Choi is a software developer with a B.A. in Mathematics & Computer Science from WashU. Projects, experience, and contact info.">
+  <title>Susie Choi — Software Developer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%23131514'/%3E%3Ctext x='10' y='29' font-family='Arial,sans-serif' font-size='31' font-weight='700' fill='%23d6f567'%3Es%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="wordmark" href="#top" aria-label="Susie Choi, back to top">susie<span class="wordmark-dot">.</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#about">About</a><a href="#experience">Experience</a>
+      </nav>
+      <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#work">Projects <span aria-hidden="true">01</span></a>
+      <a href="#about">About <span aria-hidden="true">02</span></a>
+      <a href="#experience">Experience <span aria-hidden="true">03</span></a>
+      <a href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow"><span class="small-star" aria-hidden="true">✳</span> SOFTWARE DEVELOPER</p>
+        <h1 id="hero-title">Susie<br><span class="surname">Choi<span class="name-period">.</span></span></h1>
+        <p class="hero-intro">I just finished a math and CS degree at WashU. Lately I’ve worked on mortgage software and on getting companies’ ERP and CRM systems to talk to each other.</p>
+        <a href="#work" class="button button-lime">See my projects <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="hero-image-wrap"><img class="hero-image" src="./assets/knot.webp" alt="" width="900" height="900" fetchpriority="high"></div>
+        <span class="art-cross cross-top">+</span><span class="art-cross cross-bottom">+</span>
+        <p class="art-caption"><span>FIG. 01</span> A knot, because I’m a math major.</p>
+      </div>
+      <div class="hero-bottom">
+        <p>Based in Southern California<br><span>Open to new opportunities</span></p>
+        <p class="hero-degree">Mathematics × Computer Science<br><span>Washington University in St. Louis</span></p>
+        <a href="#work" class="scroll-link">Projects <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="work light-section" id="work" aria-labelledby="work-title">
+      <div class="section-wrap">
+        <div class="section-heading reveal">
+          <p class="section-index"><span>01</span> PROJECTS</p>
+          <h2 id="work-title">Things I’ve built<span class="muted-light">.</span></h2>
+          <p class="section-heading-note">From work, school,<br>and a hackathon.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-wmb reveal">
+            <div class="project-visual mortgage-visual" aria-hidden="true">
+              <div class="visual-label">WM BANKERS · INTERNSHIP</div>
+              <div class="mortgage-window">
+                <div class="mock-browser"><i></i><i></i><i></i><span>Loan scenario tool</span></div>
+                <div class="mortgage-app">
+                  <div class="mock-topline"><strong>Scenario</strong><span>Programs &nbsp; · &nbsp; Rates</span></div>
+                  <div class="mortgage-copy"><span class="mock-eyebrow">DSCR · NON-QM · CONFORMING</span><h3>Which loan<br>fits this deal?</h3><span class="mock-lozenge">See programs ↗</span></div>
+                  <div class="loan-panel"><span class="loan-panel-heading">Your next investment</span><div class="mock-field"><span>Loan purpose</span><b>Purchase <em>⌄</em></b></div><div class="mock-field"><span>Property type</span><b>Single family <em>⌄</em></b></div><div class="mock-choice"><span>DSCR</span><span>Non-QM</span><span>Conforming</span></div><div class="mock-submit">Explore options <span>→</span></div></div>
+                </div>
+              </div>
+              <span class="visual-footnote">Sketch, not the production app</span>
+            </div>
+            <div class="project-info"><div><p class="project-category">01 / FULL-STACK DEVELOPMENT</p><h3><button class="project-open" data-project="wmb">Mortgage software at WM Bankers<span class="project-arrow" aria-hidden="true">↗</span></button></h3><p>Angular and .NET features for a wholesale mortgage lender: loan rules, APIs, and parts of their website.</p></div><div class="project-tags"><span>Angular</span><span>.NET</span><span>TypeScript</span></div></div>
+          </article>
+
+          <article class="project-card project-fox reveal">
+            <div class="project-visual fox-visual" aria-hidden="true">
+              <div class="visual-label">HACK WASHU · GRAND PRIZE</div>
+              <div class="fox-window"><div class="fox-top"><span class="fox-brand">boozy fox<span>✳</span></span><span class="fox-pill">Discover</span></div><p class="fox-kicker">THIS WEEK ON CAMPUS</p><h3>What are people<br>actually drinking?</h3><div class="fox-chart"><div class="chart-line"></div><div class="chart-line"></div><div class="chart-line"></div><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="fox-bottom"><span>Log</span><span>Compare</span><span>Trends ↗</span></div></div>
+              <span class="visual-footnote">Interface concept · illustrative data</span>
+            </div>
+            <div class="project-info"><div><p class="project-category">02 / PRODUCT DESIGN + DEVELOPMENT</p><h3><button class="project-open" data-project="fox">Boozy Fox<span class="project-arrow" aria-hidden="true">↗</span></button></h3><p>A drinking analytics app built in 36 hours. Won the grand prize and caught the attention of Anheuser-Busch InBev.</p></div><div class="project-tags"><span>React Native</span><span>Figma</span><span>Hackathon winner</span></div></div>
+          </article>
+
+          <article class="project-card project-ufree reveal">
+            <div class="project-visual ufree-visual" aria-hidden="true">
+              <div class="visual-label">SCHEDULING PLANNER</div>
+              <div class="ufree-flow"><div class="ufree-logo">uFree<span>↗</span></div><p>When is<br>everyone free?</p><div class="flow-row"><span>React</span><i>↔</i><span>Express</span><i>↔</i><span>MongoDB</span></div><div class="flow-caption"><span>INTERFACE</span><span>REST API</span><span>DATA</span></div></div>
+              <span class="visual-footnote">Application architecture</span>
+            </div>
+            <div class="project-info"><div><p class="project-category">03 / FULL-STACK APPLICATION</p><h3><button class="project-open" data-project="ufree">uFree<span class="project-arrow" aria-hidden="true">↗</span></button></h3><p>A scheduling planner app. I built the API and the MongoDB side and wired it up to the React frontend.</p></div><div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div></div>
+          </article>
+        </div>
+        <div class="work-outro reveal"><span>More code is on GitHub.</span><a class="text-link" href="https://github.com/susiechoii" target="_blank" rel="noopener noreferrer">github.com/susiechoii <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="about" aria-labelledby="about-title">
+      <div class="section-index reveal"><span>02</span> ABOUT</div>
+      <div class="about-grid">
+        <div class="about-title-wrap reveal"><h2 id="about-title">Hi, I’m <span class="serif-word">Susie</span><span class="lime">.</span></h2><div class="about-note"><span aria-hidden="true">↳</span> WashU ’26, math + CS.</div></div>
+        <div class="about-copy reveal"><p class="about-lead">I’m a developer. I like figuring out how a system works, then fixing the parts that annoy the people who use it.</p><p>I graduated from Washington University in St. Louis in 2026 with a B.A. in Mathematics & Computer Science. Along the way I’ve worked on mortgage software, data tools at a startup, and ERP integrations for large companies.</p><p>A lot of that work involved talking to clients directly. I like that part. It’s usually the fastest way to find out what’s actually broken.</p><p>Outside of code, I spend my time on art and reading.</p><div class="about-signature">Nice to meet you,<span>Susie</span></div></div>
+      </div>
+      <div class="toolkit reveal"><p class="toolkit-label">TOOLS I USE</p><div class="skill-list"><span>TypeScript</span><span>React</span><span>Angular</span><span>.NET / C#</span><span>Python</span><span>Node.js</span><span>SQL</span><span>REST APIs</span><span>Figma</span></div></div>
+    </section>
+
+    <section class="experience section-wrap" id="experience" aria-labelledby="experience-title">
+      <div class="experience-intro reveal"><p class="section-index"><span>03</span> EXPERIENCE</p><h2 id="experience-title">Where I’ve<br><span class="serif-word">worked.</span></h2><p>Three jobs, mostly at the point where<br>software meets the business using it.</p></div>
+      <div class="experience-list reveal">
+        <details class="experience-item" open><summary><span class="experience-date">JAN — AUG 2026</span><span class="experience-company">Datix Inc.<small>Systems integration & client solutions</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="experience-detail"><p>Datix connects large companies’ ERP systems to their other business software. I tracked down integration problems between systems like Salesforce, Epicor, SAP Business One, and HubSpot, and worked with clients to get their data flowing again.</p><div class="experience-skills"><span>Salesforce</span><span>Epicor</span><span>SAP B1</span><span>Dynamics</span><span>HubSpot</span></div></div></details>
+        <details class="experience-item"><summary><span class="experience-date">JAN — AUG 2025</span><span class="experience-company">Polar Energy<small>Software & business operations</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="experience-detail"><p>Startup job, so I did a bit of everything. I wrote Python tools and pipelines to process and validate business data, helped with operations, and talked to customers.</p><div class="experience-skills"><span>Python</span><span>Data validation</span><span>REST APIs</span><span>Client relationships</span></div></div></details>
+        <details class="experience-item"><summary><span class="experience-date">DEC 2024 — APR 2025</span><span class="experience-company">WM Bankers<small>Software Development Intern</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="experience-detail"><p>Built features for a wholesale mortgage lender’s software in Angular and .NET Core. Most of it meant turning lending rules into backend logic and REST APIs, and making sure the numbers came out right.</p><div class="experience-skills"><span>Angular</span><span>.NET Core</span><span>TypeScript</span><span>Financial workflows</span></div></div></details>
+        <div class="education-row"><span class="education-mark" aria-hidden="true">↗</span><div><strong>Washington University in St. Louis</strong><p>B.A. Mathematics & Computer Science · 2026</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-wrap"><div class="contact-top"><p class="section-index"><span>04</span> CONTACT</p><span class="contact-note">I’m looking for developer roles.</span></div><div class="contact-main"><h2 id="contact-title">Want to work together?<br><span class="serif-word">Email me.</span></h2><a class="contact-arrow" href="mailto:suchoi2002@gmail.com" aria-label="Email Susie Choi"><span aria-hidden="true">↗</span></a></div><div class="contact-bottom"><a class="email-link" href="mailto:suchoi2002@gmail.com">suchoi2002@gmail.com <span aria-hidden="true">↗</span></a><div class="social-links"><a href="https://github.com/susiechoii" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/csusie/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div></div>
+    </section>
+  </main>
+  <footer class="site-footer section-wrap"><a class="wordmark" href="#top" aria-label="Susie Choi, back to top">susie<span class="wordmark-dot">.</span></a><p>© 2026 Susie Choi</p><a href="#top">Back to the top <span aria-hidden="true">↑</span></a></footer>
+
+  <dialog class="case-dialog" aria-labelledby="case-title" aria-describedby="case-intro">
+    <div class="case-shell"><div class="case-top"><span id="case-number" class="section-index"></span><button class="dialog-close" aria-label="Close project details" autofocus>Close <span aria-hidden="true">×</span></button></div><div class="case-content"><p id="case-category" class="eyebrow"></p><h2 id="case-title"></h2><p id="case-intro" class="case-intro"></p><div id="case-tags" class="skill-list"></div><div id="case-story"></div><div class="case-bottom"><a class="text-link" href="https://github.com/susiechoii" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><button class="next-project">Next project <span aria-hidden="true">→</span></button></div></div></div>
+  </dialog>
+</body>
+</html>
